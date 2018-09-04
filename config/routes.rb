@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  get 'models/',to: 'models#index'
+
   get '/mouses',to: 'mouses#index'
 
   get '/users', to: 'users#index'
