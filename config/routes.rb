@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
   get '/tigers', to: 'tigers#index'
 
+  get '/snakes', to: 'snakes#index'
 
 
 end
